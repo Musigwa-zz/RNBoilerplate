@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+npm-debug.*
+
+# .watchmanconfig
+# assets/*
+
+# expo
+.expo/
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+yarn.*
+yarn-debug.log*
+yarn-error.log*
