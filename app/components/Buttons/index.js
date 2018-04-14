@@ -1,4 +1,5 @@
 import CircularFAB from "./CircularFAB";
 import styles from "./styles";
+import HorizontalFAB from "./HorizontalFab";
 
-export { CircularFAB, styles };
+export { CircularFAB, HorizontalFAB, styles };

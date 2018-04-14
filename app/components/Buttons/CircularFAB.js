@@ -13,7 +13,7 @@ class CircularFAB extends Component {
     super(props);
 
     this.state = {
-      iconColor: 'black'
+      iconColor: 'rgba(0, 255, 255,1)'
     }
   }
   handleIcon = () => {
@@ -30,6 +30,8 @@ class CircularFAB extends Component {
         radius={90} position='right'
         icon={this.handleIcon()}
         onPress={() => this.setState({ iconColor: '#fff' })}
+        offsetX={30}
+        offsetY={30}
       >
         <ActionButton.Item buttonColor='#9b59b6'
           onPress={() => console.log("notes tapped!")}

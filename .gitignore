@@ -5,6 +5,7 @@ npm-debug.*
 
 .babelrc
 .watchmanconfig
+
 # assets/*
 
 # expo
